@@ -202,7 +202,7 @@ Se você pode redirecionar portas entre a máquina local e o host remoto:
 ssh -L 1455:localhost:1455 user@remote
 ```
 
-2. Nessa sessão SSH, execute `codex login` e siga o endereço impresso na sua máquina local.
+1. Nessa sessão SSH, execute `codex login` e siga o endereço impresso na sua máquina local.
 
 ## Provedores de modelos alternativos
 
