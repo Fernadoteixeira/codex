@@ -1,15 +1,11 @@
-# Configuration
+# Configuração
 
-For basic configuration instructions, see [this documentation](https://developers.openai.com/codex/config-basic).
+Para instruções básicas de configuração, consulte [esta documentação](https://developers.openai.com/codex/config-basic).
 
-For advanced configuration instructions, see [this documentation](https://developers.openai.com/codex/config-advanced).
+Para instruções avançadas de configuração, consulte [esta documentação](https://developers.openai.com/codex/config-advanced).
 
-For a full configuration reference, see [this documentation](https://developers.openai.com/codex/config-reference).
+Para uma referência completa de configuração, consulte [esta documentação](https://developers.openai.com/codex/config-reference).
 
-## Lifecycle hooks
+## Hooks do ciclo de vida
 
-Admins can set top-level `allow_managed_hooks_only = true` in
-`requirements.toml` to ignore user, project, and session hook configs while
-still allowing managed hooks from requirements and managed config layers. This
-setting is only supported in `requirements.toml`; putting it in `config.toml`
-does not enable managed-hooks-only mode.
+Administradores podem definir a chave de nível superior `allow_managed_hooks_only = true` no arquivo `requirements.toml` para ignorar configurações de hooks do usuário, projeto e sessão, enquanto continuam permitindo hooks gerenciados a partir das camadas de requisitos e configurações gerenciadas. Esta configuração só é suportada no `requirements.toml`; colocá-la no `config.toml` não ativa o modo de apenas hooks gerenciados.

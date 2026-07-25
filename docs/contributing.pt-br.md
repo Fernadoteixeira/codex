@@ -1,97 +1,97 @@
-## Contributing
+## Contribuição
 
-**External contributions are by invitation only**
+**Contribuições externas são apenas por convite**
 
-At this time, the Codex team does not accept unsolicited code contributions.
+No momento, a equipe do Codex não aceita contribuições de código não solicitadas.
 
-If you would like to propose a new feature or a change in behavior, please open an issue describing the proposal or upvote an existing enhancement request. We prioritize new features based on community feedback, alignment with our roadmap, and consistency across all Codex surfaces (CLI, IDE extensions, web, etc.).
+Se você gostaria de propor um novo recurso ou uma alteração de comportamento, abra uma issue descrevendo a proposta ou vote em uma solicitação de melhoria existente. Priorizamos novos recursos com base no feedback da comunidade, alinhamento com nosso roadmap e consistência em todas as superfícies do Codex (CLI, extensões de IDE, web, etc.).
 
-If you encounter a bug, please open a bug report or verify that an existing report already covers the issue. If you would like to help, we encourage you to contribute by sharing analysis, reproduction details, root-cause hypotheses, or a high-level outline of a potential fix directly in the issue thread.
+Se você encontrar um bug, abra um relatório de bug ou verifique se um relatório existente já cobre o problema. Se quiser ajudar, incentivamos você a contribuir compartilhando análises, detalhes de reprodução, hipóteses de causa raiz ou um esboço de alto nível de uma potencial correção diretamente na thread da issue.
 
-The Codex team may invite an external contributor to submit a pull request when:
+A equipe do Codex pode convidar um contribuidor externo a enviar um pull request quando:
 
-- the problem is well understood,
-- the proposed approach aligns with the team’s intended solution, and
-- the issue is deemed high-impact and high-priority.
+- o problema for bem compreendido,
+- a abordagem proposta estiver alinhada com a solução pretendida pela equipe, e
+- a issue for considerada de alto impacto e alta prioridade.
 
-Pull requests that have not been explicitly invited by a member of the Codex team will be closed without review.
+Pull requests que não tenham sido explicitamente convidados por um membro da equipe do Codex serão fechados sem revisão.
 
-**Why we do not generally accept external code contributions**
+**Por que geralmente não aceitamos contribuições de código externas**
 
-In the past, the Codex team accepted external pull requests for bug fixes. While we appreciated the effort and engagement from the community, this model did not scale well.
+No passado, a equipe do Codex aceitava pull requests externos para correções de bugs. Embora tenhamos apreciado o esforço e o engajamento da comunidade, esse modelo não escalou bem.
 
-Many contributions were made without full visibility into the architectural context, system-level constraints, or near-term roadmap considerations that guide Codex development. Others focused on issues that were low priority or affected a very small subset of users. Reviewing and iterating on these PRs often took more time than implementing the fix directly, and diverted attention from higher-priority work.
+Muitas contribuições foram feitas sem visibilidade total do contexto arquitetural, restrições no nível do sistema ou considerações de roadmap de curto prazo que guiam o desenvolvimento do Codex. Outras focavam em problemas de baixa prioridade ou que afetavam um subconjunto muito pequeno de usuários. Revisar e iterar sobre esses PRs frequentemente tomava mais tempo do que implementar a correção diretamente, além de desviar a atenção de trabalhos de maior prioridade.
 
-The most valuable contributions consistently came from community members who demonstrated deep understanding of a problem domain. That expertise is most helpful when shared early -- through detailed bug reports, analysis, and design discussion in issues. Identifying the right solution is typically the hard part; implementing it is comparatively straightforward with the help of Codex itself.
+As contribuições mais valiosas vieram consistentemente de membros da comunidade que demonstraram profundo entendimento do domínio do problema. Essa expertise é mais útil quando compartilhada cedo -- através de relatórios detalhados de bugs, análises e discussões de design em issues. Identificar a solução certa é normalmente a parte difícil; implementá-la é comparativamente simples com a ajuda do próprio Codex.
 
-For these reasons, we focus external contributions on discussion, analysis, and feedback, and reserve code changes for cases where a targeted invitation makes sense.
+Por essas razões, focamos as contribuições externas em discussão, análise e feedback, e reservamos alterações de código para casos onde um convite direcionado faça sentido.
 
-### Development workflow
+### Fluxo de trabalho de desenvolvimento
 
-If you are invited by a Codex team member to contribute a PR, here is the recommended development workflow.
+Se você for convidado por um membro da equipe do Codex a contribuir com um PR, aqui está o fluxo de trabalho recomendado:
 
-- Create a _topic branch_ from `main` - e.g. `feat/interactive-prompt`.
-- Keep your changes focused. Multiple unrelated fixes should be opened as separate PRs.
-- Ensure your change is free of lint warnings and test failures.
+- Crie uma _topic branch_ a partir de `main` - por exemplo: `feat/interactive-prompt`.
+- Mantenha suas alterações focadas. Múltiplas correções não relacionadas devem ser abertas como PRs separados.
+- Garanta que sua alteração esteja livre de avisos de linter e falhas de teste.
 
-### Guidance for invited code contributions
+### Orientações para contribuições de código convidadas
 
-1. **Start with an issue.** Open a new one or comment on an existing discussion so we can agree on the solution before code is written.
-2. **Add or update tests.** A bug fix should generally come with test coverage that fails before your change and passes afterwards. 100% coverage is not required, but aim for meaningful assertions.
-3. **Document behavior.** If your change affects user-facing behavior, update the README, inline help (`codex --help`), or relevant example projects.
-4. **Keep commits atomic.** Each commit should compile and the tests should pass. This makes reviews and potential rollbacks easier.
+1. **Comece com uma issue.** Abra uma nova ou comente em uma discussão existente para que possamos concordar com a solução antes que o código seja escrito.
+2. **Adicione ou atualize testes.** Uma correção de bug deve geralmente vir com cobertura de teste que falhe antes de sua alteração e passe depois. Não é necessária 100% de cobertura, mas busque asserções significativas.
+3. **Documente o comportamento.** Se sua alteração afetar o comportamento voltado ao usuário, atualize o README, a ajuda inline (`codex --help`) ou projetos de exemplo relevantes.
+4. **Mantenha os commits atômicos.** Cada commit deve compilar e os testes devem passar. Isso facilita revisões e potenciais reversões (rollbacks).
 
-### Model metadata updates
+### Atualizações de metadados de modelos
 
-When a change updates model catalogs or model metadata (`/models` payloads, presets, or fixtures):
+Quando uma alteração atualizar catálogos de modelos ou metadados de modelos (payloads de `/models`, presets ou fixtures):
 
-- Set `input_modalities` explicitly for any model that does not support images.
-- Keep compatibility defaults in mind: omitted `input_modalities` currently implies text + image support.
-- Ensure client surfaces that accept images (for example, TUI paste/attach) consume the same capability signal.
-- Add/update tests that cover unsupported-image behavior and warning paths.
+- Defina `input_modalities` explicitamente para qualquer modelo que não suporte imagens.
+- Tenha em mente os padrões de compatibilidade: a omissão de `input_modalities` atualmente implica suporte a texto + imagem.
+- Garanta que as superfícies de cliente que aceitam imagens (por exemplo, colar/anexar na TUI) consumam o mesmo sinal de capacidade.
+- Adicione/atualize testes que cubram comportamentos de imagens não suportadas e caminhos de aviso.
 
-### Opening a pull request (by invitation only)
+### Abrindo um pull request (apenas por convite)
 
-- Fill in the PR template (or include similar information) - **What? Why? How?**
-- Include a link to a bug report or enhancement request in the issue tracker
-- Run **all** checks locally. Use the root `just` helpers so you stay consistent with the rest of the workspace: `just fmt`, `just fix -p <crate>` for the crate you touched, and the relevant tests (e.g., `just test -p codex-tui` or `just test` if you need a full sweep). CI failures that could have been caught locally slow down the process.
-- Make sure your branch is up-to-date with `main` and that you have resolved merge conflicts.
-- Mark the PR as **Ready for review** only when you believe it is in a merge-able state.
+- Preencha o template do PR (ou inclua informações semelhantes) - **O quê? Por quê? Como?**
+- Inclua um link para um relatório de bug ou solicitação de melhoria no rastreador de issues.
+- Execute **todas** as verificações localmente. Use os utilitários `just` na raiz para se manter consistente com o restante do workspace: `just fmt`, `just fix -p <crate>` para a crate que você modificou e os testes relevantes (por exemplo, `just test -p codex-tui` ou `just test` se precisar de uma varredura completa). Falhas de CI que poderiam ter sido capturadas localmente desaceleram o processo.
+- Certifique-se de que sua branch esteja atualizada com a `main` e que você tenha resolvido conflitos de merge.
+- Marque o PR como **Ready for review** apenas quando acreditar que ele está em um estado pronto para merge.
 
-### Review process
+### Processo de revisão
 
-1. One maintainer will be assigned as a primary reviewer.
-2. If your invited PR introduces scope or behavior that was not previously discussed and approved, we may close the PR.
-3. We may ask for changes. Please do not take this personally. We value the work, but we also value consistency and long-term maintainability.
-4. When there is consensus that the PR meets the bar, a maintainer will squash-and-merge.
+1. Um mantenedor será atribuído como revisor principal.
+2. Se o seu PR convidado introduzir escopo ou comportamento que não foi previamente discutido e aprovado, podemos fechar o PR.
+3. Podemos solicitar alterações. Por favor, não leve isso para o lado pessoal. Valorizamos o trabalho, mas também valorizamos a consistência e a manutenibilidade a longo prazo.
+4. Quando houver consenso de que o PR atinge o nível exigido, um mantenedor fará o squash-and-merge.
 
-### Community values
+### Valores da comunidade
 
-- **Be kind and inclusive.** Treat others with respect; we follow the [Contributor Covenant](https://www.contributor-covenant.org/).
-- **Assume good intent.** Written communication is hard - err on the side of generosity.
-- **Teach & learn.** If you spot something confusing, open an issue or discussion with suggestions or clarifications.
+- **Seja gentil e inclusivo.** Trate os outros com respeito; seguimos o [Contributor Covenant](https://www.contributor-covenant.org/).
+- **Presuma boa intenção.** Comunicação escrita é difícil - opte pela generosidade.
+- **Ensine e aprenda.** Se notar algo confuso, abra uma issue ou discussão com sugestões ou esclarecimentos.
 
-### Getting help
+### Obtendo ajuda
 
-If you run into problems setting up the project, would like feedback on an idea, or just want to say _hi_ - please open a Discussion topic or jump into the relevant issue. We are happy to help.
+Se você encontrar problemas ao configurar o projeto, quiser feedback sobre uma ideia ou apenas quiser dizer _olá_ - por favor, abra um tópico em Discussions ou entre na issue relevante. Estamos felizes em ajudar.
 
-Together we can make Codex CLI an incredible tool. **Happy hacking!** :rocket:
+Juntos podemos fazer da Codex CLI uma ferramenta incrível. **Boas contribuições!** :rocket:
 
-### Contributor license agreement (CLA)
+### Acordo de Licença de Contribuidor (CLA)
 
-All contributors **must** accept the CLA. The process is lightweight:
+Todos os contribuidores **devem** aceitar o CLA. O processo é simples:
 
-1. Open your pull request.
-2. Paste the following comment (or reply `recheck` if you've signed before):
+1. Abra seu pull request.
+2. Cole o seguinte comentário (ou responda `recheck` se já tiver assinado antes):
 
    ```text
    I have read the CLA Document and I hereby sign the CLA
    ```
 
-3. The CLA-Assistant bot records your signature in the repo and marks the status check as passed.
+3. O bot CLA-Assistant registra sua assinatura no repositório e marca a verificação de status como aprovada.
 
-No special Git commands, email attachments, or commit footers required.
+Nenhum comando Git especial, anexos de e-mail ou rodapés de commit são necessários.
 
-### Security & responsible AI
+### Segurança e IA responsável
 
-Have you discovered a vulnerability or have concerns about model output? Please e-mail **security@openai.com** and we will respond promptly.
+Descobriu uma vulnerabilidade ou tem preocupações sobre a saída do modelo? Envie um e-mail para **security@openai.com** e responderemos prontamente.

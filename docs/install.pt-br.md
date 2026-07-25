@@ -1,65 +1,65 @@
-## Installing & building
+## Instalação & Compilação
 
-### System requirements
+### Requisitos do sistema
 
-| Requirement                 | Details                                                         |
+| Requisito                   | Detalhes                                                        |
 | --------------------------- | --------------------------------------------------------------- |
-| Operating systems           | macOS 12+, Ubuntu 20.04+/Debian 10+, or Windows 11 **via WSL2** |
-| Git (optional, recommended) | 2.23+ for built-in PR helpers                                   |
-| RAM                         | 4-GB minimum (8-GB recommended)                                 |
+| Sistemas operacionais       | macOS 12+, Ubuntu 20.04+/Debian 10+, ou Windows 11 **via WSL2** |
+| Git (opcional, recomendado) | 2.23+ para recursos integrados de PR                            |
+| Memória RAM                 | Mínimo de 4 GB (8 GB recomendado)                               |
 
 ### DotSlash
 
-The GitHub Release also contains a [DotSlash](https://dotslash-cli.com/) file for the Codex CLI named `codex`. Using a DotSlash file makes it possible to make a lightweight commit to source control to ensure all contributors use the same version of an executable, regardless of what platform they use for development.
+A Release do GitHub também contém um arquivo [DotSlash](https://dotslash-cli.com/) para o Codex CLI chamado `codex`. O uso de um arquivo DotSlash permite fazer um commit leve no controle de versão para garantir que todos os colaboradores usem a mesma versão do executável, independentemente da plataforma usada no desenvolvimento.
 
-### Build from source
+### Compilar a partir do código-fonte
 
 ```bash
-# Clone the repository and navigate to the root of the Cargo workspace.
+# Clone o repositório e navegue até a raiz do workspace Cargo.
 git clone https://github.com/openai/codex.git
 cd codex/codex-rs
 
-# Install the Rust toolchain, if necessary.
+# Instale o toolchain do Rust, se necessário.
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source "$HOME/.cargo/env"
 rustup component add rustfmt
 rustup component add clippy
-# Install helper tools used by the workspace justfile:
+# Instale ferramentas auxiliares usadas pelo justfile do workspace:
 cargo install --locked just
-# DotSlash fetches pinned development tools such as buildifier on first use.
+# O DotSlash busca ferramentas de desenvolvimento fixadas, como o buildifier, no primeiro uso.
 cargo install --locked dotslash
-# Install nextest for the `just test` helper.
+# Instale o nextest para o utilitário `just test`.
 cargo install --locked cargo-nextest
 
-# Build Codex.
+# Compile o Codex.
 cargo build
 
-# Launch the TUI with a sample prompt.
+# Inicie a TUI com um prompt de exemplo.
 cargo run --bin codex -- "explain this codebase to me"
 
-# After making changes, use the root justfile helpers (they default to codex-rs):
+# Após fazer alterações, use os auxiliares do justfile na raiz (o padrão é codex-rs):
 just fmt
-just fix -p <crate-you-touched>
+just fix -p <crate-que-voce-alterou>
 
-# Run the relevant tests (project-specific is fastest), for example:
+# Execute os testes relevantes (específicos do projeto é mais rápido), por exemplo:
 just test -p codex-tui
-# `just test` runs the test suite via nextest:
+# `just test` executa a suíte de testes via nextest:
 just test
-# Avoid `--all-features` for routine local runs because it increases build
-# time and `target/` disk usage by compiling additional feature combinations.
+# Evite `--all-features` em execuções locais de rotina porque isso aumenta o tempo
+# de compilação e o uso de disco em `target/` ao compilar combinações de recursos adicionais.
 ```
 
-## Tracing / verbose logging
+## Rastreamento / Logs detalhados
 
-Codex is written in Rust, so it honors the `RUST_LOG` environment variable to configure its logging behavior.
+O Codex é escrito em Rust, portanto ele respeita a variável de ambiente `RUST_LOG` para configurar seu comportamento de log.
 
-The TUI records diagnostics in bounded local stores by default. Set `log_dir` explicitly to enable a plaintext TUI log for a run:
+A TUI registra diagnósticos em armazenamentos locais delimitados por padrão. Defina `log_dir` explicitamente para ativar um log em texto simples da TUI durante uma execução:
 
 ```bash
 codex -c log_dir=./.codex-log
 tail -F ./.codex-log/codex-tui.log
 ```
 
-The non-interactive mode (`codex exec`) defaults to `RUST_LOG=error`, but messages are printed inline, so there is no need to monitor a separate file.
+O modo não interativo (`codex exec`) tem como padrão `RUST_LOG=error`, mas as mensagens são exibidas diretamente no terminal, portanto não há necessidade de monitorar um arquivo separado.
 
-See the Rust documentation on [`RUST_LOG`](https://docs.rs/env_logger/latest/env_logger/#enabling-logging) for more information on the configuration options.
+Consulte a documentação do Rust sobre [`RUST_LOG`](https://docs.rs/env_logger/latest/env_logger/#enabling-logging) para obter mais informações sobre as opções de configuração.

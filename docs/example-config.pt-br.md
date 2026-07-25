@@ -1,3 +1,3 @@
-# Sample configuration
+# Configuração de exemplo
 
-For a sample configuration file, see [this documentation](https://developers.openai.com/codex/config-sample).
+Para um arquivo de configuração de exemplo, consulte [esta documentação](https://developers.openai.com/codex/config-sample).

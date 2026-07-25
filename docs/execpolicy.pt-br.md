@@ -1,3 +1,3 @@
-# Execution policy
+# Política de execução
 
-For an overview of execution policy rules, see [this documentation](https://developers.openai.com/codex/exec-policy).
+Para uma visão geral das regras da política de execução, consulte [esta documentação](https://developers.openai.com/codex/exec-policy).

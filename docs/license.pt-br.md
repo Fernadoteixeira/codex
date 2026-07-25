@@ -1,3 +1,3 @@
-## License
+## Licença
 
-This repository is licensed under the [Apache-2.0 License](../LICENSE).
+Este repositório está licenciado sob a [Licença Apache-2.0](../LICENSE).
