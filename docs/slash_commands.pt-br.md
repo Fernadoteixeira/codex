@@ -1,4 +1,4 @@
-# Slash Commands
+# Comandos Slash
 
 Para uma visão geral dos comandos slash do Codex CLI, consulte a [documentação oficial](https://developers.openai.com/codex/cli/slash-commands).
 
