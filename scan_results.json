@@ -4,196 +4,196 @@
     ".md"
   ],
   "total_files": 173,
-  "translated_files": 2,
-  "pending_files": 171,
-  "existing_translations": 2,
-  "coverage_percent": 1.2,
+  "translated_files": 33,
+  "pending_files": 140,
+  "existing_translations": 33,
+  "coverage_percent": 19.1,
   "files": [
     {
       "path": "AGENTS.md",
       "absolute": "c:\\Users\\fjuni\\codex\\AGENTS.md",
       "size_bytes": 22841,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "CHANGELOG.md",
       "absolute": "c:\\Users\\fjuni\\codex\\CHANGELOG.md",
       "size_bytes": 109,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\README.md",
       "size_bytes": 3415,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "SECURITY.md",
       "absolute": "c:\\Users\\fjuni\\codex\\SECURITY.md",
       "size_bytes": 940,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\babysit-pr\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\babysit-pr\\SKILL.md",
       "size_bytes": 17084,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\babysit-pr\\references\\github-api-notes.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\babysit-pr\\references\\github-api-notes.md",
       "size_bytes": 2428,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\babysit-pr\\references\\heuristics.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\babysit-pr\\references\\heuristics.md",
       "size_bytes": 3374,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\code-review\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\code-review\\SKILL.md",
       "size_bytes": 666,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\code-review-breaking-changes\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\code-review-breaking-changes\\SKILL.md",
       "size_bytes": 338,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\code-review-change-size\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\code-review-change-size\\SKILL.md",
       "size_bytes": 478,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\code-review-context\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\code-review-context\\SKILL.md",
       "size_bytes": 673,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\code-review-testing\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\code-review-testing\\SKILL.md",
       "size_bytes": 618,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\codex-bug\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\codex-bug\\SKILL.md",
       "size_bytes": 2621,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\codex-issue-digest\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\codex-issue-digest\\SKILL.md",
       "size_bytes": 9463,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\codex-pr-body\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\codex-pr-body\\SKILL.md",
       "size_bytes": 4508,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\path-types\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\path-types\\SKILL.md",
       "size_bytes": 2467,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\pushing-ci-changes\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\pushing-ci-changes\\SKILL.md",
       "size_bytes": 911,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\remote-tests\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\remote-tests\\SKILL.md",
       "size_bytes": 3473,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\test-tui\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\test-tui\\SKILL.md",
       "size_bytes": 545,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".codex\\skills\\update-v8-version\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.codex\\skills\\update-v8-version\\SKILL.md",
       "size_bytes": 3450,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".devcontainer\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.devcontainer\\README.md",
       "size_bytes": 2914,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".github\\pull_request_template.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.github\\pull_request_template.md",
       "size_bytes": 431,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".github\\codex\\labels\\codex-attempt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.github\\codex\\labels\\codex-attempt.md",
       "size_bytes": 284,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".github\\codex\\labels\\codex-review.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.github\\codex\\labels\\codex-review.md",
       "size_bytes": 450,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".github\\codex\\labels\\codex-rust-review.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.github\\codex\\labels\\codex-rust-review.md",
       "size_bytes": 6090,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".github\\codex\\labels\\codex-triage.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.github\\codex\\labels\\codex-triage.md",
       "size_bytes": 184,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": ".github\\workflows\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\.github\\workflows\\README.md",
       "size_bytes": 1675,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-cli\\scripts\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-cli\\scripts\\README.md",
       "size_bytes": 954,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\config.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\config.md",
       "size_bytes": 357,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\README.md",
       "size_bytes": 87,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ansi-escape\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ansi-escape\\README.md",
       "size_bytes": 440,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\app-server\\README.md",
@@ -1049,37 +1049,6 @@
     }
   ],
   "pending": [
-    "AGENTS.md",
-    "CHANGELOG.md",
-    "README.md",
-    "SECURITY.md",
-    ".codex\\skills\\babysit-pr\\SKILL.md",
-    ".codex\\skills\\babysit-pr\\references\\github-api-notes.md",
-    ".codex\\skills\\babysit-pr\\references\\heuristics.md",
-    ".codex\\skills\\code-review\\SKILL.md",
-    ".codex\\skills\\code-review-breaking-changes\\SKILL.md",
-    ".codex\\skills\\code-review-change-size\\SKILL.md",
-    ".codex\\skills\\code-review-context\\SKILL.md",
-    ".codex\\skills\\code-review-testing\\SKILL.md",
-    ".codex\\skills\\codex-bug\\SKILL.md",
-    ".codex\\skills\\codex-issue-digest\\SKILL.md",
-    ".codex\\skills\\codex-pr-body\\SKILL.md",
-    ".codex\\skills\\path-types\\SKILL.md",
-    ".codex\\skills\\pushing-ci-changes\\SKILL.md",
-    ".codex\\skills\\remote-tests\\SKILL.md",
-    ".codex\\skills\\test-tui\\SKILL.md",
-    ".codex\\skills\\update-v8-version\\SKILL.md",
-    ".devcontainer\\README.md",
-    ".github\\pull_request_template.md",
-    ".github\\codex\\labels\\codex-attempt.md",
-    ".github\\codex\\labels\\codex-review.md",
-    ".github\\codex\\labels\\codex-rust-review.md",
-    ".github\\codex\\labels\\codex-triage.md",
-    ".github\\workflows\\README.md",
-    "codex-cli\\scripts\\README.md",
-    "codex-rs\\config.md",
-    "codex-rs\\README.md",
-    "codex-rs\\ansi-escape\\README.md",
     "codex-rs\\app-server\\README.md",
     "codex-rs\\app-server-client\\README.md",
     "codex-rs\\app-server-daemon\\README.md",
