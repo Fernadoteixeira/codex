@@ -264,6 +264,11 @@ def codex_rust_crate(
         "INSTA_SNAPSHOT_PATH": "src",
     }
 
+    binary_test_target_compatible_with_list = binary_test_target_compatible_with or []
+    target_compatible_with_kwargs = {}
+    if binary_test_target_compatible_with != None:
+        target_compatible_with_kwargs["target_compatible_with"] = binary_test_target_compatible_with
+
     native.filegroup(
         name = "package-files",
         srcs = native.glob(
@@ -347,6 +352,7 @@ def codex_rust_crate(
             rustc_env = rustc_env,
             data = test_data_extra,
             tags = test_tags + ["manual"],
+            **target_compatible_with_kwargs
         )
 
         unit_test_kwargs = {}
@@ -387,6 +393,7 @@ def codex_rust_crate(
             rustc_flags = rustc_flags_extra + WINDOWS_RUSTC_LINK_FLAGS,
             srcs = native.glob(["src/**/*.rs"]),
             visibility = ["//visibility:public"],
+            **target_compatible_with_kwargs
         )
 
     for binary_label in extra_binaries:
