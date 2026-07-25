@@ -14,6 +14,7 @@ import time
 os.environ['DEEPL_AUTH_KEY'] = '8319203e-8781-43d8-ba75-ea4be2fbd718:fx'
 
 SCRIPT_PATH = r"C:\Users\fjuni\.gemini\config\skills\doc-translator-deeplx\scripts\translate_docs.py"
+REPO_PATH = r"c:\Users\fjuni\codex"
 REPORTS_DIR = os.path.join(REPO_PATH, "scripts", "reports")
 os.makedirs(REPORTS_DIR, exist_ok=True)
 SCAN_JSON = os.path.join(REPORTS_DIR, "scan_results.json")
