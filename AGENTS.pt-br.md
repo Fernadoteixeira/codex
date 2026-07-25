@@ -8,9 +8,9 @@ Na pasta `codex-rs`, onde fica o código em Rust:
 - Nunca adicione nem altere nenhum código relacionado a `CODEX_SANDBOX_NETWORK_DISABLED_ENV_VAR` ou `CODEX_SANDBOX_ENV_VAR`.
   - Você opera em um ambiente de teste (sandbox) no qual `CODEX_SANDBOX_NETWORK_DISABLED=1` será definido sempre que você usar a ferramenta `shell`. Qualquer código existente que utilize `CODEX_SANDBOX_NETWORK_DISABLED_ENV_VAR` foi escrito levando esse fato em consideração. Ele costuma ser usado para encerrar antecipadamente testes que o autor sabia que você não conseguiria executar, devido às limitações do seu ambiente de teste.
   - Da mesma forma, quando você inicia um processo usando o Seatbelt (`/usr/bin/sandbox-exec`), o valor `CODEX_SANDBOX=seatbelt` será definido no processo filho. Testes de integração que precisam executar o próprio Seatbelt não podem ser executados sob o Seatbelt; portanto, verificações de `CODEX_SANDBOX=seatbelt` também são frequentemente usadas para encerrar os testes antecipadamente, conforme apropriado.
-- Sempre ocultar as instruções `if` de acordo com https://rust-lang.github.io/rust-clippy/master/index.html#collapsible_if
-- Sempre no formato inline! Arguments, sempre que possível, conforme https://rust-lang.github.io/rust-clippy/master/index.html#uninlined_format_args
-- Sempre que possível, utilize referências a métodos em vez de closures, conforme https://rust-lang.github.io/rust-clippy/master/index.html#redundant_closure_for_method_calls
+- Sempre ocultar as instruções `if` de acordo com <https://rust-lang.github.io/rust-clippy/master/index.html#collapsible_if>
+- Sempre no formato inline! Arguments, sempre que possível, conforme <https://rust-lang.github.io/rust-clippy/master/index.html#uninlined_format_args>
+- Sempre que possível, utilize referências a métodos em vez de closures, conforme <https://rust-lang.github.io/rust-clippy/master/index.html#redundant_closure_for_method_calls>
 - Evite parâmetros do tipo bool ou ambíguos como `Option`, que obrigam quem faz a chamada a escrever código de difícil leitura, como `foo(false)` ou `bar(None)`. Dê preferência a enums, métodos nomeados, newtypes ou outras formas idiomáticas de API do Rust quando elas mantiverem o local da chamada autoexplicativo.
 - Quando não for possível fazer essa alteração na API e você ainda precisar de um pequeno ponto de chamada com literal posicional em Rust, siga a convenção `argument_comment_lint`:
   - Utilize um comentário exato `/*param_name*/` antes de argumentos literais opacos, como `None`, valores booleanos e literais numéricos, ao passá-los por posição.
@@ -173,6 +173,7 @@ Isso `codex-rs/tui/styles.md`.
   #[cfg(test)]
   #[path = "parser_tests.rs"]
   contra testes;
+
   ```
 
 - Isso se aplica apenas ao introduzir um novo módulo de teste. Não mova nem reescreva módulos inline `#[cfg(test)] mod tests { ... }` existentes apenas para seguir essa convenção.
@@ -247,6 +248,7 @@ Use `just bench-smoke` para executar o teste de desempenho em modo de simulaçã
   // Verifique o corpo da solicitação, se necessário.
   let request = mock.single_request();
   // Verifique usando request.function_call_output(call_id), request.json_body() ou outros auxiliares.
+
   ```
 
 #### testes de integração do servidor de aplicativos
