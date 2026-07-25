@@ -37,7 +37,7 @@ def run_batch():
         "--skip-existing",
         "--resume",
         "--recycle-container",
-        "--container-name", "dlx-translator",
+        "--container-name", "docker-dlx-1",
         "--output", BATCH_JSON
     ]
     print("[PersistentRunner] Starting/Resuming batch translation...")
