@@ -214,14 +214,6 @@ def codex_rust_crate(
     Cargo.lock resolution in `@crates`.
 
     Args:
-    """Defines a Rust crate with library, binaries, and tests wired for Bazel + Cargo parity.
-
-    The macro mirrors Cargo conventions: it builds a library when `src/` exists,
-    wires build scripts, exports `CARGO_BIN_EXE_*` for integration tests, and
-    creates unit + integration test targets. Dependency buckets map to the
-    Cargo.lock resolution in `@crates`.
-
-    Args:
         name: Bazel target name for the library, should be the directory name.
             Example: `app-server`.
         crate_name: Cargo crate name from Cargo.toml
