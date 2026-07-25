@@ -1,0 +1,22 @@
+{
+  "source": "docs\\getting-started.md",
+  "output": "docs\\getting-started.pt-br.md",
+  "stats": {
+    "total_segments": 63,
+    "translated": 28,
+    "protected": 7,
+    "empty": 28,
+    "table_sep": 0,
+    "errors": [],
+    "resumed_from": null,
+    "rate_limiter": {
+      "current_delay_s": 0.1,
+      "total_requests": 28,
+      "total_429s": 0,
+      "success_streak": 3
+    }
+  },
+  "source_lines": 79,
+  "output_lines": 79,
+  "lines_match": true
+}
