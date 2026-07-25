@@ -99,7 +99,7 @@ Os aplicativos desenvolvidos com base no `codex app-server` devem se identificar
 
 **Importante**: `clientInfo.name` é usado para identificar o cliente na Plataforma de Registros de Conformidade da OpenAI. Se
 Se você estiver desenvolvendo uma nova integração com o Codex destinada ao uso corporativo, entre em contato conosco para obtê-la
-adicionado à lista de clientes conhecidos. Para mais contexto: https://chatgpt.com/admin/api-reference#tag/Logs:-Codex
+adicionado à lista de clientes conhecidos. Para mais contexto: <https://chatgpt.com/admin/api-reference#tag/Logs:-Codex>
 
 Exemplo (da extensão oficial do VSCode da OpenAI):
 
@@ -540,12 +540,16 @@ Os threads paginados suportam as mesmas visualizações. A visualização `full`
 `thread/items/list` páginas com itens salvos em um tópico, opcionalmente filtrados para uma rodada:
 
 ```json
-{ "method": "thread/items/list", "id": 25, "params": {
+{
+  "method": "thread/items/list",
+  "id": 25,
+  "params": {
     "threadId": "thr_123",
     "turnId": "turn_456",
     "limit": 100,
     "sortDirection": "asc"
-} }
+  }
+}
 ```
 
 Cada entrada retornada inclui o `turnId` que a contém e seu `item` completo, para que os clientes possam agrupar
@@ -1831,29 +1835,33 @@ Para hooks não gerenciados, `currentHash` e `trustStatus` indicam se a definiç
 {
   "id": 28,
   "result": {
-    "data": [{
-      "cwd": "/Users/me/project",
-      "hooks": [{
-        "key": "/Users/me/.codex/config.toml:pre_tool_use:0:0",
-        "eventName": "pre_tool_use",
-        "handlerType": "command",
-        "isManaged": false,
-        "matcher": "Bash",
-        "command": "python3 /Users/me/hook.py",
-        "timeoutSec": 5,
-        "statusMessage": "running hook",
-        "additionalContextLimit": null,
-        "sourcePath": "/Users/me/.codex/config.toml",
-        "source": "user",
-        "pluginId": null,
-        "displayOrder": 0,
-        "enabled": true,
-        "currentHash": "sha256:...",
-        "trustStatus": "untrusted"
-      }],
-      "warnings": [],
-      "errors": []
-    }]
+    "data": [
+      {
+        "cwd": "/Users/me/project",
+        "hooks": [
+          {
+            "key": "/Users/me/.codex/config.toml:pre_tool_use:0:0",
+            "eventName": "pre_tool_use",
+            "handlerType": "command",
+            "isManaged": false,
+            "matcher": "Bash",
+            "command": "python3 /Users/me/hook.py",
+            "timeoutSec": 5,
+            "statusMessage": "running hook",
+            "additionalContextLimit": null,
+            "sourcePath": "/Users/me/.codex/config.toml",
+            "source": "user",
+            "pluginId": null,
+            "displayOrder": 0,
+            "enabled": true,
+            "currentHash": "sha256:...",
+            "trustStatus": "untrusted"
+          }
+        ],
+        "warnings": [],
+        "errors": []
+      }
+    ]
   }
 }
 ```
@@ -1865,21 +1873,24 @@ Para desativar um gancho não gerenciado, insira ou atualize uma entrada de esta
   "method": "config/batchWrite",
   "id": 29,
   "params": {
-    "edits": [{
-      "keyPath": "hooks.state",
-      "value": {
-        "/Users/me/.codex/config.toml:pre_tool_use:0:0": {
-          "enabled": false
-        }
-      },
-      "mergeStrategy": "upsert"
-    }],
+    "edits": [
+      {
+        "keyPath": "hooks.state",
+        "value": {
+          "/Users/me/.codex/config.toml:pre_tool_use:0:0": {
+            "enabled": false
+          }
+        },
+        "mergeStrategy": "upsert"
+      }
+    ],
     "reloadUserConfig": true
   }
 }
 ```
 
 Para reativá-lo, faça um upsert da mesma chave de hook com `"enabled": true`.
+
 ## Aplicativos
 
 Use `app/installed` para verificar os aplicativos instalados e se cada um deles está ativado e disponível no momento.
@@ -2125,40 +2136,60 @@ Notas de campo:
 ### 2) Faça login com uma chave de API
 
 1. Enviar:
-   ```json```
+   `json`
    {
-     "método": "account/login/start",
-     identificador: 2,
-     params: { type: 'apiKey', apiKey: 'sk-…' }
+   "método": "account/login/start",
+   identificador: 2,
+   params: { type: 'apiKey', apiKey: 'sk-…' }
    }
+
    ```
+
+   ```
+
 2. O que esperar:
-   ```json```
+   `json`
    { "id": 2, "result": { "type": "apiKey" } }
+
    ```
+
+   ```
+
 3. Notificações:
-   ```json```
+   `json`
    { "method": "account/login/completed", "params": { "loginId": null, "success": true, "error": null } }
    { "method": "account/updated", "params": { "authMode": "apikey", "planType": null } }
+
+   ```
+
    ```
 
 ### 3) Faça login com o ChatGPT (processo no navegador)
 
 1. Início:
-   ```json```
+   `json`
    { "method": "account/login/start", "id": 3, "params": { "type": "chatgpt" } }
-   { "id": 3, "result": { "type": "chatgpt", "loginId": "<uuid>", "authUrl": "https://chatgpt.com/…&redirect_uri=http%3A%2F%2Flocalhost%3A1%2Fauth%2Fcallback" } }
+   { "id": 3, "result": { "type": "chatgpt", "loginId": "<uuid>", "authUrl": "<https://chatgpt.com/…&redirect_uri=http%3A%2F%2Flocalhost%3A1%2Fauth%2Fcallback>" } }
+
    ```
+
+   ```
+
 2. Abra `authUrl` em um navegador; o servidor de aplicativos hospeda o callback local.
+
    Por padrão, uma chamada de retorno bem-sucedida redireciona para a página de sucesso local. Os clientes podem definir
    `useHostedLoginSuccessPage: true` para redirecionar callbacks bem-sucedidos que não exigem
    configuração da organização para a página de sucesso do Codex hospedado. Quando o login hospedado é bem-sucedido,
    Quando ativado, os clientes podem definir `appBrand` como `"codex"` ou `"chatgpt"` para selecionar o serviço hospedado correspondente
    arte da página; valores omitidos ou `null` assumem o valor padrão `"codex"`.
+
 3. Aguarde as notificações:
-   ```json```
+   `json`
    { "method": "account/login/completed", "params": { "loginId": "<uuid>", "success": true, "error": null } }
    { "method": "account/updated", "params": { "authMode": "chatgpt", "planType": "plus" } }
+
+   ```
+
    ```
 
 ### 3) Faça login com uma chave da API do Amazon Bedrock
@@ -2166,21 +2197,32 @@ Notas de campo:
 Esse fluxo experimental exige que o cliente seja inicializado com `experimentalApi: true`.
 
 1. Enviar:
-   ```json```
+   `json`
    {
-     "método": "account/login/start",
-     identificador: 3,
-     "params": { "type": "amazonBedrock", "apiKey": "…", "region": "us-west-2" }
+   "método": "account/login/start",
+   identificador: 3,
+   "params": { "type": "amazonBedrock", "apiKey": "…", "region": "us-west-2" }
    }
+
    ```
+
+   ```
+
 2. O que esperar:
-   ```json```
+   `json`
    { "id": 3, "result": { "type": "amazonBedrock" } }
+
    ```
+
+   ```
+
 3. Notificações:
-   ```json```
+   `json`
    { "method": "account/login/completed", "params": { "loginId": null, "success": true, "error": null } }
    { "method": "account/updated", "params": { "authMode": "bedrockApiKey", "planType": null } }
+
+   ```
+
    ```
 
 O Codex armazena a chave e a região como a autenticação primária do Codex, substituindo qualquer login armazenado anteriormente, e grava `model_provider = "amazon-bedrock"` na configuração do usuário ativo. As sessões carregadas existentes mantêm sua seleção atual de provedor; portanto, os clientes devem reiniciar o servidor de aplicativos antes de enviar mais solicitações de modelo. Essa limitação será resolvida em uma atualização futura.
@@ -2188,15 +2230,23 @@ O Codex armazena a chave e a região como a autenticação primária do Codex, s
 ### 4) Faça login com o ChatGPT (fluxo de código do dispositivo)
 
 1. Início:
-   ```json```
+   `json`
    { "method": "account/login/start", "id": 4, "params": { "type": "chatgptDeviceCode" } }
-   { "id": 4, "result": { "type": "chatgptDeviceCode", "loginId": "<uuid>", "verificationUrl": "https://auth.openai.com/codex/device", "userCode": "ABCD-1234" } }
+   { "id": 4, "result": { "type": "chatgptDeviceCode", "loginId": "<uuid>", "verificationUrl": "<https://auth.openai.com/codex/device>", "userCode": "ABCD-1234" } }
+
    ```
+
+   ```
+
 2. Mostre `verificationUrl` e `userCode` ao usuário; a interface do usuário é de responsabilidade do front-end.
+
 3. Aguarde as notificações:
-   ```json```
+   `json`
    { "method": "account/login/completed", "params": { "loginId": "<uuid>", "success": true, "error": null } }
    { "method": "account/updated", "params": { "authMode": "chatgpt", "planType": "plus" } }
+
+   ```
+
    ```
 
 ### 5) Cancelar um login no ChatGPT
@@ -2364,10 +2414,13 @@ Utilize esta lista de verificação ao introduzir um campo/método que só deve 
 Durante a execução, os clientes devem enviar `initialize` com `capabilities.experimentalApi = true` para utilizar métodos ou campos experimentais.
 
 1. Anote o campo no tipo de protocolo (geralmente `app-server-protocol/src/protocol/v2.rs`) com:
-   ```tranquilidade```
-   #[experimental("thread/start.myField")]
+   `tranquilidade` #[experimental("thread/start.myField")]
    pub my_field: Opção<String>,
+
    ```
+
+   ```
+
 2. Certifique-se de que o tipo dos parâmetros derive de `ExperimentalApi` para que o gating no nível do campo possa ser detectado em tempo de execução.
 
 3. Em `app-server-protocol/src/protocol/common.rs`, mantenha o método estável e use `inspect_params: true` quando apenas alguns campos forem experimentais (como `thread/start`). Se todo o método for experimental, anote a variante do método com `#[experimental("method/name")]`.
@@ -2396,16 +2449,24 @@ struct Config {
 
 Para cargas de solicitação iniciadas pelo servidor, anote o campo da mesma forma para que a geração do esquema o trate como experimental e certifique-se de que o servidor de aplicativos omita esse campo quando o cliente não tiver optado por `experimentalApi`.
 
-4. Regenerar os fixtures do protocolo:
+1. Regenerar os fixtures do protocolo:
 
    bash
    basta escrever o esquema do servidor de aplicativos
-   # Incluir campos/métodos experimentais da API nos fixtures.
+
+   # Incluir campos/métodos experimentais da API nos fixtures
+
    basta digitar `write-app-server-schema --experimental`
+
    ```
 
-5. Verifique o crate do protocolo:
+   ```
+
+2. Verifique o crate do protocolo:
 
    bash
    basta digitar `test -p codex-app-server-protocol`
+
+   ```
+
    ```
