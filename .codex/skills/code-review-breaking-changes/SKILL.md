@@ -4,6 +4,7 @@ description: Breaking changes
 ---
 
 Search for breaking changes in external integration surfaces:
+
 - app-server APIs
 - CLI parameters
 - configuration loading
