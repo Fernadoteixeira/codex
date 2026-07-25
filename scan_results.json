@@ -4,10 +4,10 @@
     ".md"
   ],
   "total_files": 173,
-  "translated_files": 0,
-  "pending_files": 173,
-  "existing_translations": 0,
-  "coverage_percent": 0.0,
+  "translated_files": 2,
+  "pending_files": 171,
+  "existing_translations": 2,
+  "coverage_percent": 1.2,
   "files": [
     {
       "path": "AGENTS.md",
@@ -948,8 +948,8 @@
     {
       "path": "docs\\getting-started.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\getting-started.md",
-      "size_bytes": 180,
-      "has_translation": false
+      "size_bytes": 2133,
+      "has_translation": true
     },
     {
       "path": "docs\\install.md",
@@ -984,8 +984,8 @@
     {
       "path": "docs\\slash_commands.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\slash_commands.md",
-      "size_bytes": 148,
-      "has_translation": false
+      "size_bytes": 1904,
+      "has_translation": true
     },
     {
       "path": "scripts\\codex_package\\README.md",
@@ -1205,13 +1205,11 @@
     "docs\\example-config.md",
     "docs\\exec.md",
     "docs\\execpolicy.md",
-    "docs\\getting-started.md",
     "docs\\install.md",
     "docs\\license.md",
     "docs\\open-source-fund.md",
     "docs\\sandbox.md",
     "docs\\skills.md",
-    "docs\\slash_commands.md",
     "scripts\\codex_package\\README.md",
     "sdk\\python\\README.md",
     "sdk\\python\\docs\\api-reference.md",
