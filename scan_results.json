@@ -4,10 +4,10 @@
     ".md"
   ],
   "total_files": 173,
-  "translated_files": 33,
-  "pending_files": 140,
-  "existing_translations": 33,
-  "coverage_percent": 19.1,
+  "translated_files": 173,
+  "pending_files": 0,
+  "existing_translations": 173,
+  "coverage_percent": 100.0,
   "files": [
     {
       "path": "AGENTS.md",
@@ -199,751 +199,751 @@
       "path": "codex-rs\\app-server\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\app-server\\README.md",
       "size_bytes": 157965,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\app-server-client\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\app-server-client\\README.md",
       "size_bytes": 2451,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\app-server-daemon\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\app-server-daemon\\README.md",
       "size_bytes": 5609,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\app-server-test-client\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\app-server-test-client\\README.md",
       "size_bytes": 6954,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\apply-patch\\tests\\fixtures\\scenarios\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\apply-patch\\tests\\fixtures\\scenarios\\README.md",
       "size_bytes": 669,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\apply-patch\\tests\\fixtures\\scenarios\\001_add_file\\expected\\bar.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\apply-patch\\tests\\fixtures\\scenarios\\001_add_file\\expected\\bar.md",
       "size_bytes": 19,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\chatgpt\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\chatgpt\\README.md",
       "size_bytes": 245,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\codex-api\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\codex-api\\README.md",
       "size_bytes": 2274,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\codex-client\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\codex-client\\README.md",
       "size_bytes": 576,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\collaboration-mode-templates\\templates\\default.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\collaboration-mode-templates\\templates\\default.md",
       "size_bytes": 940,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\collaboration-mode-templates\\templates\\execute.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\collaboration-mode-templates\\templates\\execute.md",
       "size_bytes": 3945,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\collaboration-mode-templates\\templates\\pair_programming.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\collaboration-mode-templates\\templates\\pair_programming.md",
       "size_bytes": 1133,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\collaboration-mode-templates\\templates\\plan.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\collaboration-mode-templates\\templates\\plan.md",
       "size_bytes": 9312,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\config\\src\\loader\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\config\\src\\loader\\README.md",
       "size_bytes": 3581,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\gpt-5.1-codex-max_prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\gpt-5.1-codex-max_prompt.md",
       "size_bytes": 7669,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\gpt-5.2-codex_prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\gpt-5.2-codex_prompt.md",
       "size_bytes": 7669,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\gpt_5_1_prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\gpt_5_1_prompt.md",
       "size_bytes": 24535,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\gpt_5_2_prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\gpt_5_2_prompt.md",
       "size_bytes": 21950,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\gpt_5_codex_prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\gpt_5_codex_prompt.md",
       "size_bytes": 6715,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\prompt_with_apply_patch_instructions.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\prompt_with_apply_patch_instructions.md",
       "size_bytes": 24339,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\README.md",
       "size_bytes": 4967,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\src\\config\\schema.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\src\\config\\schema.md",
       "size_bytes": 325,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\src\\guardian\\policy.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\src\\guardian\\policy.md",
       "size_bytes": 5611,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\src\\guardian\\policy_template.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\src\\guardian\\policy_template.md",
       "size_bytes": 7510,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\agents\\orchestrator.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\agents\\orchestrator.md",
       "size_bytes": 5014,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\collab\\experimental_prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\collab\\experimental_prompt.md",
       "size_bytes": 1368,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\model_instructions\\gpt-5.2-codex_instructions_template.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\model_instructions\\gpt-5.2-codex_instructions_template.md",
       "size_bytes": 7399,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\personalities\\gpt-5.2-codex_friendly.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\personalities\\gpt-5.2-codex_friendly.md",
       "size_bytes": 2087,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\personalities\\gpt-5.2-codex_pragmatic.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\personalities\\gpt-5.2-codex_pragmatic.md",
       "size_bytes": 1869,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\review\\history_message_completed.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\review\\history_message_completed.md",
       "size_bytes": 253,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\review\\history_message_interrupted.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\review\\history_message_interrupted.md",
       "size_bytes": 272,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\search_tool\\request_plugin_install_description.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\search_tool\\request_plugin_install_description.md",
       "size_bytes": 2202,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\templates\\search_tool\\tool_description.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\templates\\search_tool\\tool_description.md",
       "size_bytes": 561,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\core\\tests\\remote_env_windows\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\core\\tests\\remote_env_windows\\README.md",
       "size_bytes": 767,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\docs\\bazel.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\docs\\bazel.md",
       "size_bytes": 7719,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\docs\\codex_mcp_interface.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\docs\\codex_mcp_interface.md",
       "size_bytes": 7110,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\docs\\protocol_v1.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\docs\\protocol_v1.md",
       "size_bytes": 9948,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\exec-server\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\exec-server\\README.md",
       "size_bytes": 11718,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\exec-server\\testing\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\exec-server\\testing\\README.md",
       "size_bytes": 231,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\execpolicy\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\execpolicy\\README.md",
       "size_bytes": 4219,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ext\\extension-api\\notes.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ext\\extension-api\\notes.md",
       "size_bytes": 667,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ext\\goal\\templates\\goals\\budget_limit.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ext\\goal\\templates\\goals\\budget_limit.md",
       "size_bytes": 656,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ext\\goal\\templates\\goals\\continuation.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ext\\goal\\templates\\goals\\continuation.md",
       "size_bytes": 5312,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ext\\goal\\templates\\goals\\objective_updated.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ext\\goal\\templates\\goals\\objective_updated.md",
       "size_bytes": 668,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ext\\image-generation\\imagegen_description.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ext\\image-generation\\imagegen_description.md",
       "size_bytes": 1751,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ext\\memories\\templates\\memories\\read_path.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ext\\memories\\templates\\memories\\read_path.md",
       "size_bytes": 6723,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\ext\\web-search\\web_run_description.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\ext\\web-search\\web_run_description.md",
       "size_bytes": 7612,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\file-search\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\file-search\\README.md",
       "size_bytes": 369,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\git-utils\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\git-utils\\README.md",
       "size_bytes": 950,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\http-client\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\http-client\\README.md",
       "size_bytes": 6098,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\linux-sandbox\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\linux-sandbox\\README.md",
       "size_bytes": 5282,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\memories\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\memories\\README.md",
       "size_bytes": 7645,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\memories\\write\\templates\\extensions\\ad_hoc\\instructions.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\memories\\write\\templates\\extensions\\ad_hoc\\instructions.md",
       "size_bytes": 746,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\memories\\write\\templates\\memories\\consolidation.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\memories\\write\\templates\\memories\\consolidation.md",
       "size_bytes": 52117,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\memories\\write\\templates\\memories\\stage_one_input.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\memories\\write\\templates\\memories\\stage_one_input.md",
       "size_bytes": 411,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\memories\\write\\templates\\memories\\stage_one_system.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\memories\\write\\templates\\memories\\stage_one_system.md",
       "size_bytes": 31018,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\models-manager\\prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\models-manager\\prompt.md",
       "size_bytes": 21178,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\network-proxy\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\network-proxy\\README.md",
       "size_bytes": 9865,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\otel\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\otel\\README.md",
       "size_bytes": 5240,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\process-hardening\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\process-hardening\\README.md",
       "size_bytes": 344,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\apply_patch_tool_instructions.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\apply_patch_tool_instructions.md",
       "size_bytes": 3159,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\compact\\prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\compact\\prompt.md",
       "size_bytes": 435,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\compact\\summary_prefix.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\compact\\summary_prefix.md",
       "size_bytes": 399,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\goals\\budget_limit.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\goals\\budget_limit.md",
       "size_bytes": 656,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\goals\\continuation.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\goals\\continuation.md",
       "size_bytes": 5312,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\goals\\objective_updated.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\goals\\objective_updated.md",
       "size_bytes": 668,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\permissions\\approval_policy\\never.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\permissions\\approval_policy\\never.md",
       "size_bytes": 121,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\permissions\\approval_policy\\on_request.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\permissions\\approval_policy\\on_request.md",
       "size_bytes": 3718,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\permissions\\approval_policy\\on_request_rule_request_permission.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\permissions\\approval_policy\\on_request_rule_request_permission.md",
       "size_bytes": 1758,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\permissions\\approval_policy\\unless_trusted.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\permissions\\approval_policy\\unless_trusted.md",
       "size_bytes": 248,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\danger_full_access.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\danger_full_access.md",
       "size_bytes": 202,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\read_only.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\read_only.md",
       "size_bytes": 178,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\workspace_write.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\workspace_write.md",
       "size_bytes": 282,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\realtime\\backend_prompt.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\realtime\\backend_prompt.md",
       "size_bytes": 4978,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\realtime\\realtime_end.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\realtime\\realtime_end.md",
       "size_bytes": 226,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\realtime\\realtime_start.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\realtime\\realtime_start.md",
       "size_bytes": 805,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\prompts\\templates\\review\\rubric.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\prompts\\templates\\review\\rubric.md",
       "size_bytes": 7780,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\protocol\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\protocol\\README.md",
       "size_bytes": 449,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\protocol\\src\\prompts\\base_instructions\\default.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\protocol\\src\\prompts\\base_instructions\\default.md",
       "size_bytes": 21178,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\responses-api-proxy\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\responses-api-proxy\\README.md",
       "size_bytes": 6659,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\responses-api-proxy\\npm\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\responses-api-proxy\\npm\\README.md",
       "size_bytes": 606,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\rollout-trace\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\rollout-trace\\README.md",
       "size_bytes": 8559,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\shell-escalation\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\shell-escalation\\README.md",
       "size_bytes": 1675,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\imagegen\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\imagegen\\SKILL.md",
       "size_bytes": 24359,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\cli.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\cli.md",
       "size_bytes": 10430,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\codex-network.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\codex-network.md",
       "size_bytes": 1812,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\image-api.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\image-api.md",
       "size_bytes": 6169,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\prompting.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\prompting.md",
       "size_bytes": 10014,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\sample-prompts.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\sample-prompts.md",
       "size_bytes": 19672,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\openai-docs\\SKILL.md",
       "size_bytes": 22989,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\latest-model.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\latest-model.md",
       "size_bytes": 2405,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\prompting-guide.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\prompting-guide.md",
       "size_bytes": 17780,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\upgrade-guide.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\upgrade-guide.md",
       "size_bytes": 1072,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\upgrading-to-gpt-5p6-sol.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\upgrading-to-gpt-5p6-sol.md",
       "size_bytes": 23847,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\SKILL.md",
       "size_bytes": 11283,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\references\\installing-and-updating.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\references\\installing-and-updating.md",
       "size_bytes": 6017,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\references\\plugin-json-spec.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\references\\plugin-json-spec.md",
       "size_bytes": 9397,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\review-agent\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\review-agent\\SKILL.md",
       "size_bytes": 2718,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\skill-creator\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\skill-creator\\SKILL.md",
       "size_bytes": 22463,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\skill-creator\\references\\openai_yaml.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\skill-creator\\references\\openai_yaml.md",
       "size_bytes": 2405,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\skills\\src\\assets\\samples\\skill-installer\\SKILL.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\skills\\src\\assets\\samples\\skill-installer\\SKILL.md",
       "size_bytes": 3425,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\stdio-to-uds\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\stdio-to-uds\\README.md",
       "size_bytes": 1045,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\thread-manager-sample\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\thread-manager-sample\\README.md",
       "size_bytes": 533,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\thread-store\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\thread-store\\README.md",
       "size_bytes": 1899,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\tools\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\tools\\README.md",
       "size_bytes": 2963,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\tui\\prompt_for_init_command.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\tui\\prompt_for_init_command.md",
       "size_bytes": 1877,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\tui\\styles.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\tui\\styles.md",
       "size_bytes": 1234,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\tui\\src\\bottom_pane\\AGENTS.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\tui\\src\\bottom_pane\\AGENTS.md",
       "size_bytes": 576,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\utils\\cargo-bin\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\utils\\cargo-bin\\README.md",
       "size_bytes": 1056,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\utils\\pty\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\utils\\pty\\README.md",
       "size_bytes": 2392,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\utils\\stream-parser\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\utils\\stream-parser\\README.md",
       "size_bytes": 3222,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\utils\\template\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\utils\\template\\README.md",
       "size_bytes": 982,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\vendor\\bubblewrap\\CODE-OF-CONDUCT.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\vendor\\bubblewrap\\CODE-OF-CONDUCT.md",
       "size_bytes": 198,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\vendor\\bubblewrap\\NEWS.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\vendor\\bubblewrap\\NEWS.md",
       "size_bytes": 3235,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\vendor\\bubblewrap\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\vendor\\bubblewrap\\README.md",
       "size_bytes": 11494,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\vendor\\bubblewrap\\release-checklist.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\vendor\\bubblewrap\\release-checklist.md",
       "size_bytes": 795,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "codex-rs\\vendor\\bubblewrap\\SECURITY.md",
       "absolute": "c:\\Users\\fjuni\\codex\\codex-rs\\vendor\\bubblewrap\\SECURITY.md",
       "size_bytes": 2424,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\agents_md.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\agents_md.md",
       "size_bytes": 129,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\authentication.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\authentication.md",
       "size_bytes": 137,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\CLA.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\CLA.md",
       "size_bytes": 2108,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\config.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\config.md",
       "size_bytes": 741,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\contributing.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\contributing.md",
       "size_bytes": 6421,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\example-config.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\example-config.md",
       "size_bytes": 137,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\exec.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\exec.md",
       "size_bytes": 149,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\execpolicy.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\execpolicy.md",
       "size_bytes": 141,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\getting-started.md",
@@ -955,31 +955,31 @@
       "path": "docs\\install.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\install.md",
       "size_bytes": 2797,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\license.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\license.md",
       "size_bytes": 87,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\open-source-fund.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\open-source-fund.md",
       "size_bytes": 348,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\sandbox.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\sandbox.md",
       "size_bytes": 153,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\skills.md",
       "absolute": "c:\\Users\\fjuni\\codex\\docs\\skills.md",
       "size_bytes": 118,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "docs\\slash_commands.md",
@@ -991,203 +991,62 @@
       "path": "scripts\\codex_package\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\scripts\\codex_package\\README.md",
       "size_bytes": 4267,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "sdk\\python\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\sdk\\python\\README.md",
       "size_bytes": 1860,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "sdk\\python\\docs\\api-reference.md",
       "absolute": "c:\\Users\\fjuni\\codex\\sdk\\python\\docs\\api-reference.md",
       "size_bytes": 10656,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "sdk\\python\\docs\\faq.md",
       "absolute": "c:\\Users\\fjuni\\codex\\sdk\\python\\docs\\faq.md",
       "size_bytes": 4550,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "sdk\\python\\docs\\getting-started.md",
       "absolute": "c:\\Users\\fjuni\\codex\\sdk\\python\\docs\\getting-started.md",
       "size_bytes": 4144,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "sdk\\python\\examples\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\sdk\\python\\examples\\README.md",
       "size_bytes": 2842,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "sdk\\python-runtime\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\sdk\\python-runtime\\README.md",
       "size_bytes": 360,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "sdk\\typescript\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\sdk\\typescript\\README.md",
       "size_bytes": 4799,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "third_party\\v8\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\third_party\\v8\\README.md",
       "size_bytes": 5473,
-      "has_translation": false
+      "has_translation": true
     },
     {
       "path": "tools\\argument-comment-lint\\README.md",
       "absolute": "c:\\Users\\fjuni\\codex\\tools\\argument-comment-lint\\README.md",
       "size_bytes": 6458,
-      "has_translation": false
+      "has_translation": true
     }
   ],
-  "pending": [
-    "codex-rs\\app-server\\README.md",
-    "codex-rs\\app-server-client\\README.md",
-    "codex-rs\\app-server-daemon\\README.md",
-    "codex-rs\\app-server-test-client\\README.md",
-    "codex-rs\\apply-patch\\tests\\fixtures\\scenarios\\README.md",
-    "codex-rs\\apply-patch\\tests\\fixtures\\scenarios\\001_add_file\\expected\\bar.md",
-    "codex-rs\\chatgpt\\README.md",
-    "codex-rs\\codex-api\\README.md",
-    "codex-rs\\codex-client\\README.md",
-    "codex-rs\\collaboration-mode-templates\\templates\\default.md",
-    "codex-rs\\collaboration-mode-templates\\templates\\execute.md",
-    "codex-rs\\collaboration-mode-templates\\templates\\pair_programming.md",
-    "codex-rs\\collaboration-mode-templates\\templates\\plan.md",
-    "codex-rs\\config\\src\\loader\\README.md",
-    "codex-rs\\core\\gpt-5.1-codex-max_prompt.md",
-    "codex-rs\\core\\gpt-5.2-codex_prompt.md",
-    "codex-rs\\core\\gpt_5_1_prompt.md",
-    "codex-rs\\core\\gpt_5_2_prompt.md",
-    "codex-rs\\core\\gpt_5_codex_prompt.md",
-    "codex-rs\\core\\prompt_with_apply_patch_instructions.md",
-    "codex-rs\\core\\README.md",
-    "codex-rs\\core\\src\\config\\schema.md",
-    "codex-rs\\core\\src\\guardian\\policy.md",
-    "codex-rs\\core\\src\\guardian\\policy_template.md",
-    "codex-rs\\core\\templates\\agents\\orchestrator.md",
-    "codex-rs\\core\\templates\\collab\\experimental_prompt.md",
-    "codex-rs\\core\\templates\\model_instructions\\gpt-5.2-codex_instructions_template.md",
-    "codex-rs\\core\\templates\\personalities\\gpt-5.2-codex_friendly.md",
-    "codex-rs\\core\\templates\\personalities\\gpt-5.2-codex_pragmatic.md",
-    "codex-rs\\core\\templates\\review\\history_message_completed.md",
-    "codex-rs\\core\\templates\\review\\history_message_interrupted.md",
-    "codex-rs\\core\\templates\\search_tool\\request_plugin_install_description.md",
-    "codex-rs\\core\\templates\\search_tool\\tool_description.md",
-    "codex-rs\\core\\tests\\remote_env_windows\\README.md",
-    "codex-rs\\docs\\bazel.md",
-    "codex-rs\\docs\\codex_mcp_interface.md",
-    "codex-rs\\docs\\protocol_v1.md",
-    "codex-rs\\exec-server\\README.md",
-    "codex-rs\\exec-server\\testing\\README.md",
-    "codex-rs\\execpolicy\\README.md",
-    "codex-rs\\ext\\extension-api\\notes.md",
-    "codex-rs\\ext\\goal\\templates\\goals\\budget_limit.md",
-    "codex-rs\\ext\\goal\\templates\\goals\\continuation.md",
-    "codex-rs\\ext\\goal\\templates\\goals\\objective_updated.md",
-    "codex-rs\\ext\\image-generation\\imagegen_description.md",
-    "codex-rs\\ext\\memories\\templates\\memories\\read_path.md",
-    "codex-rs\\ext\\web-search\\web_run_description.md",
-    "codex-rs\\file-search\\README.md",
-    "codex-rs\\git-utils\\README.md",
-    "codex-rs\\http-client\\README.md",
-    "codex-rs\\linux-sandbox\\README.md",
-    "codex-rs\\memories\\README.md",
-    "codex-rs\\memories\\write\\templates\\extensions\\ad_hoc\\instructions.md",
-    "codex-rs\\memories\\write\\templates\\memories\\consolidation.md",
-    "codex-rs\\memories\\write\\templates\\memories\\stage_one_input.md",
-    "codex-rs\\memories\\write\\templates\\memories\\stage_one_system.md",
-    "codex-rs\\models-manager\\prompt.md",
-    "codex-rs\\network-proxy\\README.md",
-    "codex-rs\\otel\\README.md",
-    "codex-rs\\process-hardening\\README.md",
-    "codex-rs\\prompts\\templates\\apply_patch_tool_instructions.md",
-    "codex-rs\\prompts\\templates\\compact\\prompt.md",
-    "codex-rs\\prompts\\templates\\compact\\summary_prefix.md",
-    "codex-rs\\prompts\\templates\\goals\\budget_limit.md",
-    "codex-rs\\prompts\\templates\\goals\\continuation.md",
-    "codex-rs\\prompts\\templates\\goals\\objective_updated.md",
-    "codex-rs\\prompts\\templates\\permissions\\approval_policy\\never.md",
-    "codex-rs\\prompts\\templates\\permissions\\approval_policy\\on_request.md",
-    "codex-rs\\prompts\\templates\\permissions\\approval_policy\\on_request_rule_request_permission.md",
-    "codex-rs\\prompts\\templates\\permissions\\approval_policy\\unless_trusted.md",
-    "codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\danger_full_access.md",
-    "codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\read_only.md",
-    "codex-rs\\prompts\\templates\\permissions\\sandbox_mode\\workspace_write.md",
-    "codex-rs\\prompts\\templates\\realtime\\backend_prompt.md",
-    "codex-rs\\prompts\\templates\\realtime\\realtime_end.md",
-    "codex-rs\\prompts\\templates\\realtime\\realtime_start.md",
-    "codex-rs\\prompts\\templates\\review\\rubric.md",
-    "codex-rs\\protocol\\README.md",
-    "codex-rs\\protocol\\src\\prompts\\base_instructions\\default.md",
-    "codex-rs\\responses-api-proxy\\README.md",
-    "codex-rs\\responses-api-proxy\\npm\\README.md",
-    "codex-rs\\rollout-trace\\README.md",
-    "codex-rs\\shell-escalation\\README.md",
-    "codex-rs\\skills\\src\\assets\\samples\\imagegen\\SKILL.md",
-    "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\cli.md",
-    "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\codex-network.md",
-    "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\image-api.md",
-    "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\prompting.md",
-    "codex-rs\\skills\\src\\assets\\samples\\imagegen\\references\\sample-prompts.md",
-    "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\SKILL.md",
-    "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\latest-model.md",
-    "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\prompting-guide.md",
-    "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\upgrade-guide.md",
-    "codex-rs\\skills\\src\\assets\\samples\\openai-docs\\references\\upgrading-to-gpt-5p6-sol.md",
-    "codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\SKILL.md",
-    "codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\references\\installing-and-updating.md",
-    "codex-rs\\skills\\src\\assets\\samples\\plugin-creator\\references\\plugin-json-spec.md",
-    "codex-rs\\skills\\src\\assets\\samples\\review-agent\\SKILL.md",
-    "codex-rs\\skills\\src\\assets\\samples\\skill-creator\\SKILL.md",
-    "codex-rs\\skills\\src\\assets\\samples\\skill-creator\\references\\openai_yaml.md",
-    "codex-rs\\skills\\src\\assets\\samples\\skill-installer\\SKILL.md",
-    "codex-rs\\stdio-to-uds\\README.md",
-    "codex-rs\\thread-manager-sample\\README.md",
-    "codex-rs\\thread-store\\README.md",
-    "codex-rs\\tools\\README.md",
-    "codex-rs\\tui\\prompt_for_init_command.md",
-    "codex-rs\\tui\\styles.md",
-    "codex-rs\\tui\\src\\bottom_pane\\AGENTS.md",
-    "codex-rs\\utils\\cargo-bin\\README.md",
-    "codex-rs\\utils\\pty\\README.md",
-    "codex-rs\\utils\\stream-parser\\README.md",
-    "codex-rs\\utils\\template\\README.md",
-    "codex-rs\\vendor\\bubblewrap\\CODE-OF-CONDUCT.md",
-    "codex-rs\\vendor\\bubblewrap\\NEWS.md",
-    "codex-rs\\vendor\\bubblewrap\\README.md",
-    "codex-rs\\vendor\\bubblewrap\\release-checklist.md",
-    "codex-rs\\vendor\\bubblewrap\\SECURITY.md",
-    "docs\\agents_md.md",
-    "docs\\authentication.md",
-    "docs\\CLA.md",
-    "docs\\config.md",
-    "docs\\contributing.md",
-    "docs\\example-config.md",
-    "docs\\exec.md",
-    "docs\\execpolicy.md",
-    "docs\\install.md",
-    "docs\\license.md",
-    "docs\\open-source-fund.md",
-    "docs\\sandbox.md",
-    "docs\\skills.md",
-    "scripts\\codex_package\\README.md",
-    "sdk\\python\\README.md",
-    "sdk\\python\\docs\\api-reference.md",
-    "sdk\\python\\docs\\faq.md",
-    "sdk\\python\\docs\\getting-started.md",
-    "sdk\\python\\examples\\README.md",
-    "sdk\\python-runtime\\README.md",
-    "sdk\\typescript\\README.md",
-    "third_party\\v8\\README.md",
-    "tools\\argument-comment-lint\\README.md"
-  ]
+  "pending": []
 }
