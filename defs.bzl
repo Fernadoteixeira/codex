@@ -1,3 +1,5 @@
+"""Rules and macros for the Codex repository."""
+
 load("@crates//:data.bzl", "DEP_DATA")
 load("@crates//:defs.bzl", "all_crate_deps")
 load("@rules_rust//cargo/private:cargo_build_script_wrapper.bzl", "cargo_build_script")
@@ -218,15 +220,31 @@ def codex_rust_crate(
             Example: `codex_app_server`.
         crate_features: Cargo features to enable for this crate.
             Crates are only compiled in a single configuration across the workspace, i.e.
+    """Defines a Rust crate with library, binaries, and tests wired for Bazel + Cargo parity.
+
+    The macro mirrors Cargo conventions: it builds a library when `src/` exists,
+    wires build scripts, exports `CARGO_BIN_EXE_*` for integration tests, and
+    creates unit + integration test targets. Dependency buckets map to the
+    Cargo.lock resolution in `@crates`.
+
+    Args:
+        name: Bazel target name for the library, should be the directory name.
+            Example: `app-server`.
+        crate_name: Cargo crate name from Cargo.toml
+            Example: `codex_app_server`.
+        crate_features: Cargo features to enable for this crate.
+            Crates are only compiled in a single configuration across the workspace, i.e.
             with all features in this list enabled. So use sparingly, and prefer to refactor
             optional functionality to a separate crate.
         crate_srcs: Optional explicit srcs; defaults to `src/**/*.rs`.
         crate_edition: Rust edition override, if not default.
             You probably don't want this, it's only here for a single caller.
         proc_macro: Whether this crate builds a proc-macro library.
+        build_script_enabled: Whether to run the build script if one exists.
         build_script_data: Data files exposed to the build script at runtime.
         compile_data: Non-Rust compile-time data for the library target.
         lib_data_extra: Extra runtime data for the library target.
+        rustc_flags_extra: Extra rustc flags for all targets.
         rustc_env: Extra rustc_env entries to merge with defaults.
         deps_extra: Extra normal deps beyond @crates resolution.
             Typically only needed when features add additional deps.
@@ -255,6 +273,7 @@ def codex_rust_crate(
         run_tests_with_wine_exec: Boolean, defaults to False. Whether to emit a
             Wine-exec variant for each integration test. Variants inherit the
             native test's timeout, tags, and shard count.
+        binary_test_target_compatible_with: Target compatibility constraints for binary tests.
     """
     test_env = {
         # The launcher resolves an absolute workspace root at runtime so
@@ -264,7 +283,6 @@ def codex_rust_crate(
         "INSTA_SNAPSHOT_PATH": "src",
     }
 
-    binary_test_target_compatible_with_list = binary_test_target_compatible_with or []
     target_compatible_with_kwargs = {}
     if binary_test_target_compatible_with != None:
         target_compatible_with_kwargs["target_compatible_with"] = binary_test_target_compatible_with
@@ -290,7 +308,6 @@ def codex_rust_crate(
     manifest_relpath = native.package_name()
     if manifest_relpath.startswith("codex-rs/"):
         manifest_relpath = manifest_relpath[len("codex-rs/"):]
-    manifest_path = manifest_relpath + "/Cargo.toml"
 
     binaries = DEP_DATA.get(native.package_name())["binaries"]
 
@@ -308,7 +325,7 @@ def codex_rust_crate(
             version = "0.0.0",
         )
 
-        maybe_deps += [name + "-build-script"]
+        maybe_deps.append(name + "-build-script")
 
     if lib_srcs:
         lib_rule = rust_proc_macro if proc_macro else rust_library
@@ -373,7 +390,7 @@ def codex_rust_crate(
             **unit_test_kwargs
         )
 
-        maybe_deps += [name]
+        maybe_deps.append(name)
 
     sanitized_binaries = []
     cargo_env = {}
