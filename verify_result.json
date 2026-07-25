@@ -1,0 +1,60 @@
+{
+  "original": "c:\\Users\\fjuni\\codex\\docs\\getting-started.md",
+  "translated": "c:\\Users\\fjuni\\codex\\docs\\getting-started.pt-br.md",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "line_count",
+      "passed": true,
+      "original": 79,
+      "translated": 79
+    },
+    {
+      "check": "code_fence_markers",
+      "passed": true,
+      "original": 14,
+      "translated": 14
+    },
+    {
+      "check": "links",
+      "passed": true,
+      "original": 0,
+      "translated": 0
+    },
+    {
+      "check": "images",
+      "passed": true,
+      "original": 0,
+      "translated": 0
+    },
+    {
+      "check": "headings",
+      "passed": true,
+      "original": 9,
+      "translated": 9
+    },
+    {
+      "check": "table_separators",
+      "passed": true,
+      "original": 0,
+      "translated": 0
+    },
+    {
+      "check": "html_tags",
+      "passed": true,
+      "original": 0,
+      "translated": 0
+    },
+    {
+      "check": "has_frontmatter",
+      "passed": true,
+      "original": false,
+      "translated": false
+    },
+    {
+      "check": "no_remaining_placeholders",
+      "passed": true,
+      "detail": "Clean"
+    }
+  ]
+}
