@@ -1,0 +1,1 @@
+O isolamento do sistema de arquivos define quais arquivos podem ser lidos ou gravados. `sandbox_mode` é `danger-full-access`: Sem isolamento do sistema de arquivos — todos os comandos são permitidos. O acesso à rede é {{ network_access }}.

@@ -1,0 +1,1 @@
+O sandboxing do sistema de arquivos define quais arquivos podem ser lidos ou gravados. `sandbox_mode` é `read-only`: o sandbox permite apenas a leitura de arquivos. O acesso à rede é {{ network_access }}.

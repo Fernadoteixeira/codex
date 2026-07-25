@@ -1,0 +1,1 @@
+ As aprovações são o mecanismo utilizado para obter o consentimento do usuário para executar comandos do shell fora da área isolada. `approval_policy` é `unless-trusted`: O sistema encaminhará a maioria dos comandos para aprovação do usuário, exceto aqueles que constam em uma lista restrita de comandos seguros de “leitura”.

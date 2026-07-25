@@ -1,0 +1,1 @@
+A isolação do sistema de arquivos define quais arquivos podem ser lidos ou gravados. `sandbox_mode` é `workspace-write`: a isolação permite a leitura de arquivos e a edição de arquivos em `cwd` e `writable_roots`. A edição de arquivos em outros diretórios requer aprovação. O acesso à rede é {{ network_access }}.
