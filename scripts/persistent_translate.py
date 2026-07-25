@@ -48,6 +48,8 @@ def run_batch():
     return proc.returncode
 
 def main():
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     iteration = 1
     while True:
         data = scan()
@@ -62,7 +64,7 @@ def main():
         print(f"==================================================\n")
 
         if pending == 0 and total > 0:
-            print("[PersistentRunner] 🎉 100% of documentation files translated!")
+            print("[PersistentRunner] SUCCESS: 100% of documentation files translated!")
             break
 
         run_batch()
