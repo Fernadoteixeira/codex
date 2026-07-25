@@ -2,7 +2,6 @@ module(name = "codex")
 
 bazel_dep(name = "bazel_skylib", version = "1.9.0")
 bazel_dep(name = "platforms", version = "1.1.0")
-bazel_dep(name = "rules_cc", version = "0.2.20")
 bazel_dep(name = "llvm", version = "0.8.11")
 
 # Patch hermetic LLVM for Codex's custom libc++ and Windows gnullvm runtime
@@ -80,7 +79,7 @@ use_repo(osx, "macos_sdk")
 
 # Needed to disable xcode...
 bazel_dep(name = "apple_support", version = "2.1.0")
-bazel_dep(name = "rules_cc", version = "0.2.18")
+bazel_dep(name = "rules_cc", version = "0.2.20")
 single_version_override(
     module_name = "rules_cc",
     patch_strip = 1,
