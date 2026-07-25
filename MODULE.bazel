@@ -1,7 +1,8 @@
 module(name = "codex")
 
 bazel_dep(name = "bazel_skylib", version = "1.9.0")
-bazel_dep(name = "platforms", version = "1.0.0")
+bazel_dep(name = "platforms", version = "1.1.0")
+bazel_dep(name = "rules_cc", version = "0.2.20")
 bazel_dep(name = "llvm", version = "0.8.11")
 
 # Patch hermetic LLVM for Codex's custom libc++ and Windows gnullvm runtime
